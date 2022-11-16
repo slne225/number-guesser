@@ -1,17 +1,17 @@
 let target;
 
-const humanGuessInput = document.getElementById('human-guess');
+// const humanGuessInput = document.getElementById('human-guess');
 
-const roundNumberDisplay = document.getElementById('round-number');
+// const roundNumberDisplay = document.getElementById('round-number');
 
-const computerGuessDisplay = document.getElementById('computer-guess');
-const humanScoreDisplay = document.getElementById('human-score');
-const computerScoreDisplay = document.getElementById('computer-score');
-const targetNumberDisplay = document.getElementById('target-number');
-const computerWinsDisplay = document.getElementById('computer-wins');
+// const computerGuessDisplay = document.getElementById('computer-guess');
+// const humanScoreDisplay = document.getElementById('human-score');
+// const computerScoreDisplay = document.getElementById('computer-score');
+// const targetNumberDisplay = document.getElementById('target-number');
+// const computerWinsDisplay = document.getElementById('computer-wins');
 
-const guessButton = document.getElementById('guess');
-const nextRoundButton = document.getElementById('next-round')
+// const guessButton = document.getElementById('guess');
+// const nextRoundButton = document.getElementById('next-round')
 
 guessButton.addEventListener('click', () => {
   // Generate the target value
